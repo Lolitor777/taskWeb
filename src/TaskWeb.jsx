@@ -1,9 +1,10 @@
+import { RouterApp } from "./router"
 
 
 export const TaskWeb = () => {
   return (
     <>
-        <h1>TaskWeb</h1>
+        <RouterApp />
     </>
   )
 }
