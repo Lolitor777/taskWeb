@@ -1,0 +1,174 @@
+/* Wellcome Page */
+
+.wellcome-header-container {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.wellcome-header-container-child {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.wellcome-header-container-child span {
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+    font-size: .6rem;
+}
+
+.wellcome-header-container-child h1 {
+    padding-top: .4em;
+}
+
+.wellcome-body-container {
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #F09819, #FF512F);  
+    background: linear-gradient(to right, #F09819, #FF512F); 
+    position: relative;
+}
+
+.wellcome-body-container-child {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 6em;
+}
+
+.wellcome-body-container-child h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+
+.wellcome-body-container-child p {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.wellcome-body-container-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 400px;
+    margin: 4em auto 0;
+    gap: 1em;
+}
+
+.wellcome-body-btn {
+    color: white;
+    border: none;
+    width: 80%;
+    max-width: 300px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px gray;
+    height: 40px;
+    font-weight: 500;
+}
+
+.wellcome-body-btn:active {
+    opacity: 0.8;
+}
+
+.wellcome-body-btn-register {
+    background-color: var(--sixth-color);
+    
+}
+
+.wellcome-body-btn-login {
+    background-color: var(--sixth-color);
+    font-size: .9rem;
+    align-self: flex-end;
+}
+
+.wellcome-body-wave-image {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    bottom: -1em;
+    margin-top: 4em;
+}
+
+.wellcome-body-wave-img {
+    width: 100%;
+}
+
+.wellcome-body-task-image {
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    z-index: 100;
+    margin: -5em auto 2em;
+}
+
+.wellcome-body-task-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+@media( min-width: 1000px ) {
+    
+    .wellcome-body-container-child h2 {
+        font-size: 3rem;
+    }
+    
+    
+    .wellcome-body-container-child p {
+        font-size: 1.5rem;
+    }
+    
+    .wellcome-body-container-buttons {
+        align-items: center;
+    }
+    
+    .wellcome-body-btn {
+        color: white;
+        border: none;
+        width: 80%;
+        max-width: 300px;
+        font-size: 1.2rem;
+        border-radius: 6px;
+        box-shadow: 0px 0px 5px gray;
+        height: 40px;
+        font-weight: 500;
+    }
+    
+    .wellcome-body-btn:active {
+        opacity: 1;
+    }
+    
+    .wellcome-body-btn-register {
+        background-color: var(--sixth-color);
+        
+    }
+    
+    .wellcome-body-btn-login {
+        background-color: var(--sixth-color);
+        font-size: .9rem;
+        align-self: flex-end;
+    }
+
+    .wellcome-body-wave-image {
+        height: 200px;
+        bottom: -5em;
+        margin-top: 0;
+    }
+       
+    .wellcome-body-task-image {
+        
+        margin: -8em auto 2em;
+    }
+    
+}

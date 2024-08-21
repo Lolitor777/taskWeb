@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+
+:root {
+   --primary-color: #004E89;
+   --secondary-color: #1A659E;
+   --third-color: #FF6B35;
+   --fourth-color: #F7C59F;
+   --fifth-color: #EFEFD0;
+   --sixth-color: #2F52E0;
+}
