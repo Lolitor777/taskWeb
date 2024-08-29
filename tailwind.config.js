@@ -7,14 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#004E89',
-        secondary: '#1A659E',
-        third: '#FF6B35',
-        fourth: '#F7C59F',
-        fifth: '#EFEFD0',
-        sixth: '#2F52E0',
-        black: '#000',
-        white: '#fff'
+        bluePrimary: '#004E89',
+        blueSecondary: '#1A659E',
+        blueThird: '#2F52E0',
+        orangePrimary: '#FF6B35',
+        oarangeSecondary: '#F7C59F',
       },
       fontFamily: {
         raleway: ['Raleway', 'sans-serif']
